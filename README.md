@@ -1,3 +1,6 @@
+## Promothesus Architecture
+![Promothesus Architecture](assets/architecture.png)
+
 ## What to Instrument
 
 Prometheus instrumentation documentation says:
