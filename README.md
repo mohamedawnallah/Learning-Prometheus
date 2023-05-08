@@ -33,6 +33,10 @@ Instrument:
 ## How much to instrument
 It's subjective more than objective. There is no hard rule to follow as there is allow a tradeoff between the benefits you get from the instrumentation and the operational cost.
 
+## Reload Promotheus Configurations on the Flay
+- Post Request to Promothesus Reload API Endpoint
+- SigHub Signal to the Promothesus Process
+
 ## Types of Rules
 - Recording Rules
 - Alerts
