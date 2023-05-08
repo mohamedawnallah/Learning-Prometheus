@@ -39,5 +39,6 @@ It's subjective more than objective. There is no hard rule to follow as there is
 
 ## Types of Rules
 - Recording Rules:
-Naming Conventions -> ```level:metric:operations```
+1. Naming Conventions -> ```level:metric:operations```
+2. Avoid using rules for long range vectors, as such queries tend to be expensive, and running them regularly can cause performance problems
 - Alerts
