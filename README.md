@@ -41,4 +41,7 @@ It's subjective more than objective. There is no hard rule to follow as there is
 - Recording Rules:
 1. Naming Conventions -> ```level:metric:operations```
 2. Avoid using rules for long range vectors, as such queries tend to be expensive, and running them regularly can cause performance problems
-- Alerts
+- Alerts:
+1. Firing Alerts based on a single rule evaluation cycle is always not a good idea before firing the alert you need to make sure there's actual defect in the target
+and it's the time to fire the alert for the human intervention
+2. Set ting the rule evaluation cycle to 5 minutes will eliminate most of the false positive alerts from the queue
