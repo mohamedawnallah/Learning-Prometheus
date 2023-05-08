@@ -38,5 +38,6 @@ It's subjective more than objective. There is no hard rule to follow as there is
 - SigHub Signal to the Promothesus Process
 
 ## Types of Rules
-- Recording Rules
+- Recording Rules:
+Naming Conventions -> ```level:metric:operations```
 - Alerts
